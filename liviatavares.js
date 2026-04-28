@@ -31,12 +31,12 @@ function draw() {
   fill(0, 40, 180);
   push();
   rotate(-25);
-  rect(-65, -15, 75, 75); // Quadrado esquerdo
+  rect(-65, -10, 75, 75); // Quadrado esquerdo
   pop();
   
   push();
   rotate(-25);
-  rect(25, 80, 75, 75); // Quadrado direito
+  rect(25, 65, 75, 75); // Quadrado direito
   pop();
   pop();
 
@@ -48,7 +48,7 @@ function draw() {
   // Linha preta diagonal
   stroke(0);
   strokeWeight(1);
-  line(-80, -85, 50, 80);
+  line(-80, -90, 50, 80);
   
   // Linha azul horizontal
   stroke(0, 40, 180);
@@ -58,7 +58,7 @@ function draw() {
   // Quadrado azul
   noStroke();
   fill(0, 40, 180);
-  rect(30, -45, 65, 65);
+  rect(30, -43, 65, 65);
   pop();
 
   // --- GRUPO INFERIOR DIREITO ---
@@ -69,7 +69,7 @@ function draw() {
   // Linha preta diagonal longa
   stroke(0);
   strokeWeight(1);
-  line(-250, 100, 120, -80);
+  line(-150, 70, 100, -80);
   
   // Linha azul vertical inclinada
   stroke(0, 40, 180);
@@ -80,7 +80,7 @@ function draw() {
   noStroke();
   fill(0, 40, 180);
   push();
-  translate(-28, -75);
+  translate(-30, -70);
   rotate(10);
   rect(0, 0, 75, 75);
   pop();
